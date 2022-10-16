@@ -12,7 +12,7 @@ const PersonCard = (props) => {
               </div>
               <div className="title">
                   <p className="name">{name}</p>
-                  <p className="age">{age}</p>
+                  <p className="age">Age: {age}</p>
                   <a href={email} className="email">{email}</a>
               </div>
             </div>

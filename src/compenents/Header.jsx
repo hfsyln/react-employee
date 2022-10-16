@@ -4,7 +4,7 @@ const Header = (props) => {
         
         <h1>Employee List</h1>
         
-        <p>(Employees {props.count + 1} to {props.count + 5})</p>
+        <p className="başlıkp">(Employees {props.count + 1} to {props.count + 5})</p>
        
     </div>
   );

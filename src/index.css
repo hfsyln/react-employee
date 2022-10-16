@@ -1,9 +1,39 @@
 body {
   margin: 0;
+  width: 100%;
+  background-color: rgb(228, 220, 236);
 
 }
 
 .allmain {
   text-align: center;
-  padding: 20px;
+  margin: 20px;
+  width: 30%;
+  margin: auto;
+  background-color: rgb(197, 182, 210);
+  border-radius: 20px;
+  
+}
+.container {
+  display: flex;
+  gap: 2rem;
+  margin: 1rem;
+  text-align: start;
+  
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+img {
+  border-radius: 50%;
+  width: 90%;
+}
+
+.header {
+  margin-top: 1rem;
+}
+.başlıkp {
+  font-size: 1.3rem;
 }
