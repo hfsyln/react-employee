@@ -6,7 +6,7 @@ const Button = ({clickFunc}) => {
   }
 
   return (
-    <div>
+    <div className="btncnt">
         <button onClick={değiştir} value="prev">Prev</button>
         
         <button onClick={değiştir} value="next">Next</button>

@@ -6,6 +6,7 @@ const PersonCard = (props) => {
     {
         const {name,id,image,email,age}=item
         return (
+          <div>
             <div key={id} className="container">
               <div className="image">
                   <img src={image} alt="" />
@@ -16,6 +17,9 @@ const PersonCard = (props) => {
                   <a href={email} className="email">{email}</a>
               </div>
             </div>
+            <hr />
+          </div>
+            
                 ) 
     }
     ))
